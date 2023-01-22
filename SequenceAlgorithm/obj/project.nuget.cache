@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SyRQUBAuZT/3ccTHBK3FBcIJOLTALAAxSmUZSfAtGPuyP+kfwJkoRx7C+qScP0HOowlj+gQKdMmTQ12M43NCqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Softwares\\TCQ\\Assignment6\\tdd-buckets-mohan-kumar123\\TDD_WorkFlow\\SequenceAlgorithm\\SequenceAlgorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\QOH2KOR\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
