@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SequenceAlgorithm/obj/Debug/netcoreapp3.1/staticwebassets
+/TestProject_SequenceTracking/bin/Debug/netcoreapp3.1
+/SequenceAlgorithm/bin/Debug/netcoreapp3.1
+/.vs/TDD_WorkFlow/config
+/.vs/TDD_WorkFlow/v16/TestStore/0
