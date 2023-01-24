@@ -1,10 +1,12 @@
-﻿namespace SequenceAlgorithm.Model
+﻿using System.Collections.Generic;
+
+namespace SequenceAlgorithm.Model
 {
     public interface ISequenceProcessor
     {
-        string CheckConcequtiveNumber(int[] input);
+        string CheckConcequtiveNumbercheck(List<int> input, bool IsCSVPattern);
         bool CheckLengthOfInput(int[] input);
-        string ProcessInput(int[] input);
+        string ProcessInput(int[] input, bool IsCSVPattern=false);
         int[] SortTheArray(int[] input);
     }
 }

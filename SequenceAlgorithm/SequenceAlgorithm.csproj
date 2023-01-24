@@ -5,7 +5,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\SequenceAlgorithm.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Utility\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\SequenceAlgorithm.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\SequenceAlgorithm.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SequenceAlgorithm.csproj.nuget.g.targets" />
   </ItemGroup>
 
 
