@@ -1,3 +1,9 @@
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.deps.json
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.runtimeconfig.json
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.runtimeconfig.dev.json
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.exe
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
@@ -6,6 +12,7 @@ C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\TestProject_SequenceTracking.runtimeconfig.dev.json
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\TestProject_SequenceTracking.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\TestProject_SequenceTracking.pdb
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -15,6 +22,7 @@ C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\testhost.dll
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
@@ -86,6 +94,8 @@ C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.dll
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.pdb
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\obj\Debug\netcoreapp3.1\TestProject_SequenceTracking.csprojAssemblyReference.cache
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\obj\Debug\netcoreapp3.1\TestProject_SequenceTracking.GeneratedMSBuildEditorConfig.editorconfig
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\obj\Debug\netcoreapp3.1\TestProject_SequenceTracking.AssemblyInfoInputs.cache
@@ -95,13 +105,3 @@ C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\obj\Debug\netcoreapp3.1\TestProject_SequenceTracking.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\obj\Debug\netcoreapp3.1\TestProject_SequenceTracking.pdb
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\obj\Debug\netcoreapp3.1\TestProject_SequenceTracking.genruntimeconfig.cache
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.deps.json
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.runtimeconfig.json
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.runtimeconfig.dev.json
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.exe
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Castle.Core.dll
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\Moq.dll
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.dll
-C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\TestProject_SequenceTracking\bin\Debug\netcoreapp3.1\SequenceAlgorithm.pdb
