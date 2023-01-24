@@ -14,20 +14,22 @@ namespace TestProject_SequenceTracking
         [Theory, ClassData(typeof(InputData))]
         public void Test_Sequenceprocessor_ForAllCombinations(int[] inputdata, string expectedOutput, bool IsCSVEnabled)
         {
-            SequenceProcessor sequenceProcessor = new SequenceProcessor();
-            int[] input = inputdata;
-            string result = sequenceProcessor.ProcessInput(input, IsCSVEnabled);
-
-            Assert.Matches(expectedOutput, result);
+            ProcessorExecutor(inputdata, expectedOutput, IsCSVEnabled);
         }
-        [Theory, ClassData(typeof(InputForCSVData))]
-        public void Test_Sequenceprocessor_1stComplex_CSV(int[] inputdata, string expectedOutput, bool IsCSVEnabled)
+
+        private static void ProcessorExecutor(int[] inputdata, string expectedOutput, bool IsCSVEnabled)
         {
             SequenceProcessor sequenceProcessor = new SequenceProcessor();
             int[] input = inputdata;
             string result = sequenceProcessor.ProcessInput(input, IsCSVEnabled);
 
             Assert.Matches(expectedOutput, result);
+        }
+
+        [Theory, ClassData(typeof(InputForCSVData))]
+        public void Test_Sequenceprocessor_1stComplex_CSV(int[] inputdata, string expectedOutput, bool IsCSVEnabled)
+        {
+            ProcessorExecutor(inputdata, expectedOutput, IsCSVEnabled);
         }
     }
     public class InputForCSVData : IEnumerable<object[]>
