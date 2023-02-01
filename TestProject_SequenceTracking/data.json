@@ -1,0 +1,30 @@
+{
+  "BasicInput1ForCSV": [
+    [
+      "4,5",
+      "4-5 2/n",
+      true
+    ]
+  ],
+  "BasicInput2ForCSV": [
+    [
+      "4,5,6,7,8",
+      "4-8 5/n",
+      true
+    ]
+  ],
+  "BasicInput3ForCSV": [
+    [
+      "4,3,2,3,1",
+      "1-4 5/n",
+      true
+    ]
+  ],
+  "CheckForNoElement": [
+    [
+      "",
+      "We don't have nothig to process, Please provide some numbers to process.",
+      true
+    ]
+  ]
+}

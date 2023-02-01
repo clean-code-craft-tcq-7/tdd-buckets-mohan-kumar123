@@ -1,0 +1,100 @@
+﻿#Sequence Number Kata
+
+	The task is to detect the ranges and output the number of readings in each range.
+	In this example,
+	
+
+#Step 1
+ 
+	Create a 'SequenceProcessor' class with a method signature: String ProcessInput(int[] input,bool IsCSVPattern = false)
+	    * The method can take upto array numbers and boolean will return sequence number with thier count.
+		* IsCsvPattern is default parameter if we pass true then the method is return CSV format output.
+		* For Example 3, 3, 5, 4, 10, 11, 12 as input --> Output is 3-5 range has 4 readings and 10-12 range has 3 readings.
+		* For single count array will return 1.
+
+	To start off I’ve created a new API project in Visual Studio, I’ve added a txt file that contains my Kata and I’ve also set up a unit test project using xUnit,
+	removed the default unit test and created a reference to my SequenceAlgorithm project. I’ve also installed the FluentAssertions package via NuGet to help write my tests.
+	    
+		* Starting the first requirments of the kata, I need to pass empty input array So the method should return respective error message.
+
+    My First step is to create a unit test class called SequenceNumberTest in TestProject_SequenceTracking Namespace,But we don’t have a 'SequenceProcessor' class to test.
+	So, the next step I have taken and writing the skeleton of my project.
+
+	Create the 'SequenceProcessor' class to get rid off error in unit test method.
+	And, If I run the tests, I've got an invalid string format for correct input and expected output for empty int array.
+
+	So, Added the hardcoded string format output for valid input will resolve the failing test case.
+
+	  * we need to sort the number before going to generate the sequence number string.
+	  * After sorted Need to convert array into List for manupluate easily.
+	  * Finally, Generate ConcequtiveNumber.
+
+#Step 2
+
+    Create a standalone Sort Method to Sort the array as input in same 'SequenceProcessor' class: int[] SortTheArray(int[] input)
+	    * Use Linq Orderby clause to Sort the input array.
+		* return the sorted input array as output.
+
+	Create a CheckConcequtiveNumber method in same class: string CheckConcequtiveNumbercheck(List<int> input, bool IsCSVPattern)
+	    * It should return the string pattern output, it iterate the input array and check the sequence on three differnent pattern
+		* store the sequence number and thier count in global variabile.
+		* Generate pattern using the sequence number and thier count variabiles.
+		
+	 if I was to run the tests now, they would fail because we haven’t updated the SortTheArray() & CheckConcequtiveNumbercheck() function to ProcessInput function to cover the requirement.
+	 So, Added the hardcoded string format output for valid input will resolve the failing test case.
+	 Now, all test case are passed however need to cover lot of requirments.
+	 Currently we don't have anything to refactor So we can think of the next requirment kata.
+
+#Step 3
+
+    integrate the SortTheArray() & CheckConcequtiveNumbercheck() in ProcessInput method.
+	
+	Create 3 different pattern check method to segregate the sequence numbers from input array.
+
+	Create private field called track return type is boolean
+	    * Default false, it will be truned true if it will reached the ExecuteThirdpattern.
+		* Again it will turned false in loop to check another sequence.
+
+	create FirstPattern Method in same class: void ExecuteFirstpattern(int i, List<int> input)
+	    * If track is true the method going to call 1st Pattern Generation method
+		* If track is false, the method simply come out of the method and call second method in CheckConcequtiveNumbercheck().
+
+    create SecondPattern Method in same class: void ExecuteSecondpattern(int i, List<int> input)
+	    * If track is true the method going to call 2nd Pattern Generation method
+		* If track is false, the method simply come out of the method and call second method in CheckConcequtiveNumbercheck().
+
+	create ThirdPattern Method in same class: void ExecuteThirdpattern(ref int i, List<int> input)
+	    * If track is true the method going to call 3rd Pattern Generation method
+		* If track is false, the method simply come out of the method and call second method in CheckConcequtiveNumbercheck().
+    
+	Once again the test is failing so need to refactor the CheckConcequtiveNumbercheck method to accomodiate the above method.
+	Now, we have created the method with CCN3 so class and fucntions are looks more maintainable and No duplicate codes.
+	After refactoring done.
+
+#Step 4
+	Create CountSequence method in same class: void CountSequence(int pattern)
+		* If pattern is 1 or 2 then countCheckForFirstpartition is increment 1 and countseqence is set the countCheckForFirstpartition value without comma seperated. 
+		* If pattern is greater than 2 countCheckForFirstpartition is increment 1 and countseqence is set the countCheckForFirstpartition value comma seperated. 
+
+    Create CheckFirstPattern method in same class: void CheckFirstPattern(int i, List<int> input)
+		* If i is not equal to input length or input[1] - input[0] == 1 then call CountSequence(1).
+		* If i is equal to input array length then get out of the method and call to next method.
+
+	Create CheckSecondPattern method in same class: void CheckSecondPattern(int i, List<int> input)
+		* If input[1] - input[0] == 0 then set input[i - 1] +"," value to sequenceKeeper and call CountSequence(2).
+		* If i is equal to input array length then get out of the method and call to next method.
+
+	Create CheckThirdPattern method in same class: void CheckThirdPattern(int i, List<int> input)
+		* input[i - 1] +"," value to sequenceKeeper.
+		* Skip the i value element from list keep remaining elements to check sequence and call CountSequence(3)..
+	Create GeneratePattern method in same class: string GeneratePattern(bool IsCSVPattern = false)
+	    * Check whether IsCSVPattern is true or false, if it's true the method return the output as CSV format.
+		* If not the method will return normal text output.
+After Refactoring done.
+Run the succesfully passed the test cases, try to add more test case to cover edge cases.
+
+#Step 5
+    
+	Add different complexity level test cases to check all possibile scenarios.
+	please check the TDD input Json file for test cases.
+   

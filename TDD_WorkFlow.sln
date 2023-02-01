@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceAlgorithm", "SequenceAlgorithm\SequenceAlgorithm.csproj", "{547BF41E-5A43-4940-B924-0C7D45739EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_SequenceTracking", "TestProject_SequenceTracking\TestProject_SequenceTracking.csproj", "{89D6D53E-4016-46D3-BF7D-5BA18B43C769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{547BF41E-5A43-4940-B924-0C7D45739EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547BF41E-5A43-4940-B924-0C7D45739EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547BF41E-5A43-4940-B924-0C7D45739EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547BF41E-5A43-4940-B924-0C7D45739EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D6D53E-4016-46D3-BF7D-5BA18B43C769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D6D53E-4016-46D3-BF7D-5BA18B43C769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D6D53E-4016-46D3-BF7D-5BA18B43C769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D6D53E-4016-46D3-BF7D-5BA18B43C769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CAB03CD-9350-4544-839A-FF33B1A111D2}
+	EndGlobalSection
+EndGlobal
