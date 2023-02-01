@@ -18,3 +18,4 @@ C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\SequenceAlg
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\SequenceAlgorithm\obj\Debug\netcoreapp3.1\SequenceAlgorithm.dll
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\SequenceAlgorithm\obj\Debug\netcoreapp3.1\SequenceAlgorithm.pdb
 C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\SequenceAlgorithm\obj\Debug\netcoreapp3.1\SequenceAlgorithm.genruntimeconfig.cache
+C:\Softwares\TCQ\Assignment6\tdd-buckets-mohan-kumar123\TDD_WorkFlow\SequenceAlgorithm\obj\Debug\netcoreapp3.1\SequenceAlgorithm.csprojAssemblyReference.cache

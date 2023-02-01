@@ -26,17 +26,4 @@ jobs:
         dotnet-version: 3.1.101
 
     - name: Run tests and collect coverage
-      # run: dotnet test --collect:"XPlat Code Coverage"
-
-    - name: Install coverage report generator
-      run: dotnet tool install -g dotnet-reportgenerator-globaltool
-
-    - name: Make coverage report
-      run: reportgenerator "-reports:TypewiseAlert.Test\TestResults\*\*.xml" "-targetdir:coverage"
-    
-    - name: Create coverage artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: coverage
-        path: coverage
-        retention-days: 21
+      run: dotnet test --collect:"XPlat Code Coverage"
